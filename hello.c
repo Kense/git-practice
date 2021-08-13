@@ -10,5 +10,7 @@ void main(void)
 =======
     printf("merge-1...\r\n");
 >>>>>>> merge-1
+    printf("merge-branch...\r\n");
+
 }
 }
