@@ -494,6 +494,7 @@ int arp_main(int argc UNUSED_PARAM, char **argv)
 	INIT_G();
 	//Kense debug
 	printf("This is test patch from Kense...\r\n");
+	
 	xmove_fd(xsocket(AF_INET, SOCK_DGRAM, 0), sockfd);
 
 	ap = get_aftype(DFLT_AF);
@@ -503,7 +504,8 @@ int arp_main(int argc UNUSED_PARAM, char **argv)
 	hw = get_hwtype(DFLT_HW);
 	//if (!hw)
 	//	bb_error_msg_and_die("%s: %s not supported", DFLT_HW, "hardware type");
-
+	//Kense debug,20210813
+	printf("Debug2---This is test patch from Kense...\r\n");
 	opts = getopt32(argv, "A:p:H:t:i:adnDsv", &protocol, &protocol,
 				 &hw_type, &hw_type, &device);
 	argv += optind;
