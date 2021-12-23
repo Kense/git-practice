@@ -12,5 +12,5 @@ void main(void)
 >>>>>>> merge-1
     printf("merge-branch...\r\n");
     printf("patch 123...\r\n");
-    printf("patch MR-Test...\r\n");}
+    printf("patch MR-Test 123...\r\n");}
 }
